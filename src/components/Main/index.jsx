@@ -197,7 +197,7 @@ const Main = () => {
                   <li>Casamentos</li>
                 </ul>
               </div>
-              <button>Quero um orçamento</button>
+              <button className='btn'>Quero um orçamento</button>
             </div>
           </div>
 

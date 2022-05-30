@@ -590,6 +590,29 @@ export const DualContent = styled.section`
           cursor: pointer;
         }
       }
+
+      @media (max-width: 425px) {
+        width: 343px;
+
+        h1 {
+          font-size: 50px;
+          text-align: center;
+        }
+
+        .lists {
+          flex-direction: column;
+          ul {
+            margin: 0;
+          }
+        }
+        .btn {
+          display: none;
+        }
+
+        button {
+          margin-top: 40px;
+        }
+      }
     }
 
     .img-container {
@@ -637,6 +660,10 @@ export const DualContent = styled.section`
         flex-direction: column-reverse;
       }
     }
+  }
+
+  @media (max-width: 425px) {
+    margin-top: 0;
   }
 `;
 
