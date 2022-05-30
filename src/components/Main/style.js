@@ -20,8 +20,8 @@ export const WelcomeWrapper = styled.section`
     @media (max-width: 425px) {
       max-width: 100vw;
       padding: 0 20px 98px 20px;
-      background-position: 60%;
       align-items: center;
+      background-image: url(home_bg_mobile.png);
     }
   }
 

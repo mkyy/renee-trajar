@@ -56,12 +56,13 @@ export const Container = styled.header`
 `;
 
 export const FixedMobileLogo = styled.div`
-  background-color: #0e0e10;
+  background-color: transparent;
   width: 100vw;
   height: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
 
   img {
     width: 148px;
